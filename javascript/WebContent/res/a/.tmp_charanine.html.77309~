@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+    <head>
+        <meta name="generator" content="HTML Tidy, see www.w3.org">
+        <meta http-equiv="Content-Type" content= "text/html; charset=utf-8">
+
+        <title>Untitled Document</title>
+        <link rel="stylesheet" type="text/css" media="screen" href=
+        "nine.css">
+<script type="text/javascript" src="addLoadEvent.js">
+</script>
+<script type="text/javascript" src="nine.js">
+</script>
+    </head>
+
+    <body>
+        <p id="message">message</p>
+
+        <h1></h1>
+        table
+
+        <table>
+            <caption>
+                Itinerary
+            </caption>
+        </table>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>When</th>
+
+                    <th>Where</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>June 9th</td>
+
+                    <td>Portland, <abbr title=
+                    "Oregon">OR</abbr></td>
+                </tr>
+
+                <tr>
+                    <td>June 10th</td>
+
+                    <td>Seattle, <abbr title=
+                    "Washington">WA</abbr></td>
+                </tr>
+
+                <tr>
+                    <td>June 12th</td>
+
+                    <td>Sacramento,<abbr title=
+                    "california">CA</abbr></td>
+                </tr>
+
+                <tr>
+                    <td>June 12th</td>
+
+                    <td>Sacramento,<abbr title=
+                    "california">CA</abbr></td>
+                </tr>
+
+                <tr>
+                    <td>June 12th</td>
+
+                    <td>Sacramento,<abbr title=
+                    "california">CA</abbr></td>
+                </tr>
+
+                <tr>
+                    <td>June 12th</td>
+
+                    <td>Sacramento,<abbr title=
+                    "california">CA</abbr></td>
+                </tr>
+
+                <tr>
+                    <td>June 12th</td>
+
+                    <td>Sacramento,<abbr title=
+                    "california">CA</abbr></td>
+                </tr>
+
+                <tr>
+                    <td>June 12th</td>
+
+                    <td>Sacramento,<abbr title=
+                    "california">CA</abbr></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>There are the things you should know</p>
+
+        <ul id="linkslist">
+            <li><a href=
+            "www.baidu.com">&ccedil;&trade;&frac34;&aring;&ordm;&brvbar;baidu</a></li>
+
+            <li><a href=
+            "www.google.com">&egrave;&deg;&middot;&aelig;&shy;&OElig;google</a></li>
+
+            <li><a href=
+            "www.qq.com">&aelig;&permil;&pound;&aelig;&permil;&pound;qq</a></li>
+        </ul>
+
+        <div id="sildshow">
+            <img src="topics.gif" alt=
+            "building blocks of web desing" id="preview">
+        </div>
+    </body>
+</html>
+

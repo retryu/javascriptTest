@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset="utf-8">
+		<link  rel="stylesheet"  href="showPic.css"  type="text/css"  media="screen">
+		<script  type="text/javascript"  src="showPic.js"></script>
+        <title>照片墙</title>
+    </head>
+    <body>
+    		<h1>照片墙</h1>
+	<ul  id="imagegallery"   >
+		<li>
+			<a  href="a.jpg"  title="小阮"   return false;">
+			<img width="100px"  src="a.jpg"  alt="小阮">  
+			</a>
+		</li>
+		<li>
+			<a  href="b.jpg"  title="阿呆"      return false;">
+			<img width="100px" src="b.jpg" alt="阿呆">
+			</a>
+		</li>
+			<li>
+			<a  href="d.jpg"  title="千哥"  return false;">
+			<img width="100px" src="d.jpg"  alt="千哥">
+			</a>
+		</li>
+		</li>
+			<li>
+			<a  href="c.jpg"  title="姑娘"   return false;"> 
+			<img width="100px" src="c.jpg"  alt="姑娘">
+			</a>
+		</li>
+		</li>
+			<li>
+			<a  href="e.jpg"  title="小毛"     return false;">
+			<img  width="100px" src="e.jpg"  alt="小猫">
+			</a>
+		</li>
+		
+	</ul>
+	<img  class="show"  id="placeholder" width="200px" src="a.jpg"  alt="my image  gallery"   />
+	<p  id="description"  >Choose  an  image.</p>
+	
+
+	<div  id="test"></div>
+
+
+
+    	
+        
+    </body>
+</html>
+
+	 
