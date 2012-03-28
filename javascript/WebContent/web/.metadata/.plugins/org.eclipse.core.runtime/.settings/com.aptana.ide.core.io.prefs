@@ -1,0 +1,4 @@
+DirectoryPermission=511
+FilePermission=438
+GLOBAL_CLOAKING_EXTENSIONS=.svn;.tmp*~;.settings;CVS;.git;.DS_Store
+eclipse.preferences.version=1

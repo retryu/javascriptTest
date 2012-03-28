@@ -1,0 +1,59 @@
+body {
+	
+}
+
+
+.about{
+	width:800px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	padding:50px;
+	background-color:#f8acac;
+	 -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+ .aboutus{
+ 	color:#ffffff;
+ }
+ .space{
+ 	height:40px;
+	width:100%;
+ }
+.teamcontent {
+    margin-top: 40px;
+    width:100%;
+    height: 800px;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);
+    box-shadow: rgba(0, 0, 0, 0.296875) 0px 5px 20px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.296875) 0px 5px 20px;
+}
+.avater{
+	
+	width:60px;
+	height:60px;
+	 -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	float:left;
+
+}
+.people{
+	width:600px;
+	height:auto;
+	padding-bottom:40px;
+	padding-top:20px;
+}
+
+.job{
+	color:#ffffff;
+}
+.intro{
+	color:#ffffff;
+}
+p{
+	color:#ffffff;
+}
+
+

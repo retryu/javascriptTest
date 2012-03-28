@@ -1,0 +1,69 @@
+	#box {
+		position: absolute;
+		background: #111;
+		border: gray solid 1px;
+		visibility: hidden;
+	}
+	#screen {
+		position:absolute;
+		margin-top:50px;
+		width:1140px;
+		height:300px;
+		background-image:url(../img/mainC9.jpg);
+		
+	}
+	#box img  {
+		position: absolute;
+		border: #ffffff; solid 5px;
+		cursor: pointer;
+	}
+	#box span {
+		position: absolute;
+		color: #000000;
+		font-family: verdana;
+		font-size: 12px;
+		width: 200px;
+	}
+	#box a {
+		text-decoration: none;
+		color:#ff8000;
+	}
+	#box a:hover	{
+		text-decoration: none;
+		background:#ff8000;
+		color:#ffffff;
+	}
+	#box a:visited {
+		text-decoration: none;
+		color:#ff8000;
+	}
+	#box a:visited:hover {
+		text-decoration: none;
+		background:#ff8000;
+		color:#ffffff;
+	}
+	#lnk {
+		visibility: hidden;
+	}
+	#LBO{
+		position:absolute;
+		left:50%;
+		top:50%;
+	}
+	#load{
+		position:absolute;
+		font-family:arial;
+		font-size:10px;
+		color:#FFFFFF;
+		left:-50px;
+	    top:-18px;
+	}
+	#LB1{
+		position:absolute;
+		left:0px;
+		top:0px;
+		font-size:1px;
+		width:0px;
+		height:10px;
+		background:#FFFFFF
+	}

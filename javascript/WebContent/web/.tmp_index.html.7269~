@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Untitled Document</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/flexslider.css">
+        <link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+        <script src="js/modernizr-1.6.min.js"></script>
+        <script  src="js/index.js"></script>
+        <script src="js/jquery-1.4.2.min.js"> </script>
+        <script type="text/javascript" src="js/new_file.js">
+        </script>
+      
+    </head>
+        
+    <body>
+    	 <div id="layouthead">
+            <img src="img/logo.png" />
+        </div>
+        <div id="navigation">
+            <ul class="main">
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+                
+                <li>
+                    <a href="photo.html">菜谱</a>
+                </li>
+                <li>
+                    <a href="question.html">问答</a>
+                </li>
+                <li>
+                    <a href="news.html">新闻</a>
+                </li>
+				 <li>
+                    <a href="team.html">团队</a>
+                </li>
+            </ul>
+        </div>
+        <div id="content">
+            <div class="topContent">
+                <div id="screen">
+                    <div id="box">
+                        <img src="img/sc.jpg" title="寿司" alt="这种多彩的、精致的食物所含热量低、脂肪低，可能是当今最健康、最具营养的食品之一."><img src="img/sc1.jpg" title="中式糕点" alt="略饿的时候吃点糕点垫垫底，可以防止正餐的时候吃太多哦~"><img src="img/sc2.jpg" title="西餐" alt="电影中两人一起吃西餐的罗曼蒂克是多少少女向往的"><img src="img/sc3.jpg" title="蛋糕甜点" alt="蛋糕甜点一般是用面粉黄油以及其他高热量物质做成，虽然好吃，可不要吃太多哦~"><img src="img/sc5.jpg" title="中国菜" alt="生在中国长在中国的我们，最习惯最喜欢的恐怕就是中国菜了吧！"><span id="txt"></span>
+                        <span id="tit"></span>
+                        <span id="lnk"><a></a><a></a><a></a><a></a><a></a><a></a><a></a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="mainContent">
+                <div class="mainContent1">
+                    <div class="ms">
+                        <a href="#"><img src="img/ms1.jpg" alt="" /></a><a href="#"><img src="img/ms2.jpg" alt="" /></a><a href="#"><img src="img/ms3.jpg" alt="" /></a><a href="#"><img src="img/ms4.jpg" alt="" /></a><a href="#"><img src="img/ms5.jpg" alt="" /></a><a href="#"><img src="img/ms6.jpg" alt="" /></a><a href="#"><img src="img/ms7.jpg" alt="" /></a><a href="#"><img src="img/ms8.jpg" alt="" /></a><a href="#"><img src="img/ms9.jpg" alt="" /></a>
+                    </div>
+                    <div class="notice">
+                        <img src="img/blackboard.jpg" alt="" />
+                    </div>
+                    <div class="ms">
+                        <a href="#"><img src="img/yd1.jpg" alt="" /></a><a href="#"><img src="img/yd2.jpg" alt="" /></a><a href="#"><img src="img/yd3.gif" alt="" /></a><a href="#"><img src="img/yd4.jpg" alt="" /></a><a href="#"><img src="img/yd5.jpg" alt="" /></a><a href="#"><img src="img/yd6.jpg" alt="" /></a><a href="#"><img src="img/yd7.jpg" alt="" /></a><a href="#"><img src="img/yd8.jpg" alt="" /></a><a href="#"><img src="img/yd9.jpg" alt="" /></a>
+                    </div>
+                </div>
+                <div class="mainContent2">
+                    <div class="msgBoxA">
+                        <a href="#"><img src="img/mainC1.jpg" alt="qwertyu" /></a>
+                    </div>
+                    <div class="msgBoxB">
+                        <a href="#"><img src="img/mainC2.jpg" alt="" /></a>
+                    </div>
+                    <div class="msgBoxC">
+                        <a href="#"><img src="img/mainC3.jpg" alt="" /></a>
+                    </div>
+                    <div class="msgBoxD">
+                        <a href="#"><img src="img/mainC4.jpg" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div id="footer">
+    	<div class="footest"><tt>杭州师范大学 国际服务工程学院 </tt></div>
+		<div class="footimg"></div>
+    </div>
+	</body>
+</html>

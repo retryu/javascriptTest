@@ -1,0 +1,8 @@
+body {
+	color:#ffffff;
+	background-color:#004080;;
+}
+a:link{
+	color:#ffff80;
+	background-color:#8080ff;
+}

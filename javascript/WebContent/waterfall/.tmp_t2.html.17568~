@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>瀑布流布局-web前端菜鸟团</title>
+<script type="text/javascript">
+	window.onload=function()
+	{
+		waterfall($('wrap'));
+	};
+	window.onresize=function(){waterfall($('wrap'));};
+	var $=function(id){return document.getElementById(id) || id};
+ 
+	function getStyle(obj,attr)
+	{
+		return obj.currentStyle ? obj.currentStyle[attr] : getComputedStyle(obj,false)[attr];
+	}
+ 
+	//获取最小高度的Li的索引值
+	function getTheMini(arr,MinH)
+	{
+		for(k in arr)
+		{
+			if(arr[k]==MinH)
+			{
+				return k;
+			}
+		}
+	}
+	function waterfall(obj)
+	{
+		var aH=[];
+		var aObj=obj.getElementsByTagName('li');
+		var oBoxW=aObj[0].offsetWidth,
+		oBoxMinH=aObj[0].offsetHeight,
+		oBoxH;
+		var nNum=document.documentElement.offsetWidth/oBoxW | 0;
+		obj.style.width=nNum*oBoxW+"px";
+		for(var i=0;i<aObj.length;i++)
+		{
+			oBoxH=aObj[i].offsetHeight;
+			if(nNum>i)
+			{
+				aH[i]=oBoxH;
+				aObj[i].style.position="";
+			}
+			else
+			{
+				minH=Math.min.apply('',aH);//获取数组中的最小值
+				minKey=getTheMini(aH,minH);
+				aH[minKey] +=oBoxH;
+				aObj[i].style.position="absolute";
+				aObj[i].style.top=minH+"px";
+				aObj[i].style.left=(minKey*oBoxW)+"px";
+			}
+		}
+	}
+ 
+</script>
+<style type="text/css">
+	*{ padding:0; margin:0; list-style:none; font-size:12px; font-family:"微软雅黑";}
+	body{ overflow-x:hidden;}
+	#wrap{ position:relative; zoom:1;  margin:0 auto;}
+	#wrap li{ width:240px; float:left;}
+	#wrap li .content{ margin:8px; border:1px solid #CCC; padding:6px; background:#EEE;}
+</style>
+</head>
+ 
+<body>
+	<ul id="wrap">
+		<li><div class="content"><a href="http://www.owebbird.com" title="Web前端-菜鸟团">Web前端-菜鸟团</a></div></li>
+		<li><div class="content">这是一·································································这是2</div></li>
+		<li><div class="content">这是·································································这是2·································································这是3</div></li>
+		<li><div class="content">·································································这是4-------------------------------------</div></li>
+		<li><div class="content">································································这是4--------------------</div></li>
+		<li><div class="content">···········这是2·································································这是</div></li>
+		<li><div class="content">·································································这是4-</div></li>
+		<li><div class="content">这是一</li>
+		<li><div class="content">这是一·································································这是2</div></li>
+		<li><div class="content">这是·································································这是2·································································这是3</div></li>
+		<li><div class="content">·································································这是4-------------------------------------</div></li>
+		<li><div class="content">································································这是4--------------------</div></li>
+		<li><div class="content">···········这是2·································································这是3</div></li>
+		<li><div class="content">·································································这是4-</div></li>
+        <li><div class="content">这是一</div></li>
+		<li><div class="content">这是一·································································这是2</div></li>
+		<li><div class="content">这是·································································这是2·································································这是3</div></li>
+		<li><div class="content">·································································这是4-------------------------------------</div></li>
+		<li><div class="content">································································这是4--------------------</div></li>
+		<li><div class="content">···········这是2·································································这是</div></li>
+		<li><div class="content">·································································这是4-</div></li>
+		<li><div class="content">这是一</li>
+		<li><div class="content">这是一·································································这是2</div></li>
+		<li><div class="content">这是·································································这是2·································································这是3</div></li>
+		<li><div class="content">·································································这是4-------------------------------------</div></li>
+		<li><div class="content">································································这是4--------------------</div></li>
+		<li><div class="content">···········这是2·································································这是3</div></li>
+		<li><div class="content">·································································这是4-</div></li>
+	</ul>
+</body>
+</html>

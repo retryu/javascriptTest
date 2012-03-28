@@ -1,0 +1,28 @@
+function styleHeaderSiblings(){
+	if (!document.getElementsByTagName) 
+		return false;
+	var headers=document.getElementsByTagName("h1");
+	for(var i=0;i<headers.length;i++){
+		var elem=getNextElement(headers[i].nextSibing);
+		addClass(elem,"intro");
+	}
+}
+function addClass(Element,value){
+	if (!Element.classname) {
+	Element.classname=value;
+	}_
+	else{
+		Element.classname+="";
+		Element.classname+=value;
+	}
+}
+function getNextElement(node){
+	if(node.nodeType==1){
+		return node;
+	}
+	if(node.nextSibing){
+		return getNextElement(node.nextSibing);
+	}
+	return null; 
+}
+addLoadEvent(styleHeaderSiblings);

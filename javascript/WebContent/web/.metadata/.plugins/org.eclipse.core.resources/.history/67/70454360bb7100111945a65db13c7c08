@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Man bites dog</title>
+    <script type="text/javascript" src="story/addLoadEvent.js"></script>
+    <script type="text/javascript" src="story/styleHeaderSiblings.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  </head>
+  <body>
+    <h1>Hold the front page</h1>
+    <p>This first paragraph leads you in.</p>
+    <p>Now you get the nitty-gritty of the story.</p>
+    <p>The most important information is delivered first.</p>
+    <h1>Extra! Extra!</h1>
+    <p>Further developments are unfolding.</p>
+    <p>You can read all about it here.</p>
+  </body>
+</html>

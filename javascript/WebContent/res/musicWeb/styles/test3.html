@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>jQuery Masonry</title>
+<style type="text/css">
+.list { width:935px; margin:0 auto; list-style:none; }
+.list li { float:left; display:inline; margin:0 10px 20px 0; padding:6px; border:1px #DDD solid; }
+</style>
+</head>
+<body>
+<ul class="list">
+  <li><a href="http://baidu.com"><img src="images/1.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/2.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/3.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/4.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/5.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/6.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/7.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/1.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/2.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/3.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/4.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/5.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/6.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/7.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/1.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/2.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/3.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/4.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/5.jpg" alt="" /></a></li>
+  <li><a href="#"><img src="images/6.jpg" alt="" /></a></li>
+</ul>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.js"></script> 
+<script type="text/javascript" src="js/jquery.masonry.min.js"></script> 
+<script>
+$(document).ready(function() {
+    $('.list').masonry({
+        itemSelector:'.list li',
+        columnWidth:230
+    });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Untitled Document</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="itinerary.css"/>
+
+	</head>
+		    <script type="text/javascript" src="itinerary.js"></script>
+	    <script type="text/javascript" src="addLoadEvent.js"></script>
+	<body>
+		 <table>
+    <caption>Itinerary</caption>
+    <thead>
+    <tr>
+      <th>When</th>
+      <th>Where</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>June 9th</td>
+      <td>Portland, <abbr title="Oregon">OR</abbr></td>
+    </tr>
+    <tr>
+      <td>June 10th</td>
+      <td>Seattle, <abbr title="Washington">WA</abbr></td>
+    </tr>
+    <tr>
+      <td>June 12th</td>
+      <td>Sacramento, <abbr title="California">CA</abbr></td>
+    </tr>
+    </tbody>
+  </table>
+	</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Untitled Document</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+        <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+        <script src="js/modernizr-1.6.min.js">
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js">
+        </script>
+        <script src="js/jquery-1.4.2.min.js">
+        </script>
+        <script src="js/jquery.flexslider.js">
+        </script>
+        <!-- Place in the <head>, after the three links -->
+        <script type="text/javascript" charset="utf-8">
+            $(window).load(function(){
+                $('.flexslider').flexslider();
+            });
+        </script>
+    </head>
+    <body>
+        <div class="layouthead">
+            <img src="img/logo.png" alt="logo" />
+        </div>
+        <div id="navigation">
+            <ul class="main">
+                <li>
+                    <a href="#">首页</a>
+                </li>
+                <li>
+                    <a href="#">作品</a>
+                </li>
+                <li>
+                    <a href="#">新闻</a>
+                </li>
+                <li>
+                    <a href="#">团队</a>
+                </li>
+                <li>
+                    <a href="#">问答</a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="top">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                        </li>
+                        <li>
+                        </li>
+                        <li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div "topcontent">
+            </div>
+            <script src="js/global.js">
+            </script>
+            <article>
+                <ul id="imagegallery">
+                    <li>
+                        <a href="img/11.jpg" ><img src="img/11.jpg"  /></a>
+                    </li>
+                    <li>
+                        <a href="img/10.jpg"><img src="img/10.jpg"  /></a>
+                    </li>
+                    <li>
+                        <a href="img/12.jpg"><img src="img/12.jpg"  /></a>
+                    </li>
+                    <li>
+                        <a href="img/13.jpg" ><img src="img/13.jpg"  /></a>
+                    </li>
+                </ul>
+            </article>
+        </div>
+    </body>
+</html>

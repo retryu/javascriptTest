@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <title>Untitled Document</title>
+        <script type="text/javascript" src="onload.js">
+        </script>
+        <script type="text/javascript" src="explanstion.js">
+        </script>
+        <link rel="stylesheet" href="explanstion.css" type="text/css" media="screen"/>
+    </head>
+    <body>
+        <ul id="navigation">
+            <li>
+                <a href="index.html" accesskey="1">Home</a>
+            </li>
+            <li>
+                <a href="search.html" accesskey="4">Search</a>
+            </li>
+            <li>
+                <a href="contact.html" accesskey="0">Contact</a>
+            </li>
+        </ul>
+        <h1>What is the Document Object Model?</h1>
+        <p>
+            The 
+            <abbr title="World Wide Web Consortium">
+                W3C
+            </abbr>
+            defines 
+            the 
+            <abbr title="Document Object Model">
+                DOM
+            </abbr>
+            as:
+        </p>
+        <blockquote cite="http://www.w3.org/DOM/">
+            <p A platform- and language-neutral interface that will allow programs and scripts to dynamically access and update the content,  structure and style of documents.
+            </p>
+        </blockquote>
+        <p>
+            It is an 
+            <abbr title="Application Programming Interface">
+                API
+            </abbr>
+            that can be used to navigate 
+            <abbr title="HyperText Markup Language">
+                HTML
+            </abbr>
+            and 
+            <abbr title="eXtensible Markup Language">
+                XML
+            </abbr>
+            documents.
+        </p>
+    </body>
+</html>

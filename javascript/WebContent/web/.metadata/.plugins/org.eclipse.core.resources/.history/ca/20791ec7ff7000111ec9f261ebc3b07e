@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Untitled Document</title>
+		<script>
+			window.onload=function(){
+				var para=document.getElementById("example");
+				alert("the font family is"+para.style.fontFamily);
+				alert("the font family is"+para.style.color);
+			}
+		</script>
+	</head>
+	<body>
+		<p id="example" style="color:#400080; font-family:'Arial',sans-serif;"></p>
+		An example of a paragraph.
+	</body>
+</html>

@@ -1,0 +1,598 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+
+#content h2.hide {
+	font-size:1px;
+	line-height:1px;
+	text-indent:-10000px;
+}
+#content h3 {
+	font-size:27px;
+	padding-top:5px;
+}
+	
+.home {
+	background:url(../img/bg-home-boxes-top.gif) no-repeat top;
+	padding-top:60px;
+}
+	.home .bgt {
+		background:url(../img/bg-home-boxes-bottom.gif) no-repeat bottom;
+		padding-bottom:21px;
+	}
+	.home .bg {
+		background: url(../img/bg-home-boxes-content.gif) repeat-y;
+		width:952px;
+	}
+	.home .colA h3 {
+		color:#5b2a3c;
+		padding-bottom:8px;
+	}
+	.home .colA h3 {
+		color:#fff;	
+		padding-bottom:8px;
+	}
+	.home .colA h3 {
+		color:#de62b3;
+		padding-bottom:8px;
+	}
+	
+	.home .colA {
+		float:left;
+		width:293px;
+		padding-left:20px;
+	}
+		.home .colA a {
+			display:block;
+			float:left;
+			padding-bottom:14px;
+			font-size:14px;
+			font-style:italic;
+			color:#de62b3;
+			padding-right:10px;
+			width: 87px;
+		}
+			.home .colA a span {
+				cursor:pointer;	
+				padding-left:2px;
+				
+			}
+			.home .colA a img {
+				display:block;
+				padding-bottom:7px;	
+			}
+	.home .colB {
+		float:left;
+		width:267px;
+		padding-left:30px;
+		padding-right:20px;
+	}
+		.home .colB p {
+			color:#fff;
+			font-size:15px;
+			line-height:140%;
+			padding-bottom:15px;
+		}
+			.home .colB p small {
+				color:#5b2a3c;
+				font-size:12px;
+			}
+	.home .colC {
+		float:left;
+		width:272px;
+		padding-left:26px;
+	}
+		.home .colC .dots {
+			width:100%;
+			height:1px;
+			display:block;
+			border-bottom:dotted 1px #de62b3;
+			margin-bottom:15px;
+		}
+		.home .colC h4 {
+			font-size:14px;
+			color:#de62b3;
+			padding-bottom:7px;
+		}
+			.home .colC h4 a {
+				color:#de62b3;
+			}
+		.home .colC p {
+			padding-bottom:12px;
+			font-size:12px;
+			color:#5b2a3c;
+			line-height:140%;
+		}
+		
+.basket {
+	background:url(../img/bg-basket-top.gif) no-repeat top;
+	padding-top:77px;
+} 
+	.basket .bgt {
+		background:url(../img/bg-bottom.gif) no-repeat bottom;
+		padding-bottom:22px;
+	}
+	.basket .bg {
+		background:url(../img/bg-content.gif) repeat-y;
+		width:715px;
+		padding-left:110px;
+		padding-right:137px;
+	}
+	.basket h3 {
+		padding-bottom:28px;
+	}
+	.basket table {
+		width:100%;	
+	}
+		.basket th {
+			font-size:12px;
+			font-weight:bold;
+			color:#5b2a3c;
+			text-align:center;
+			padding-left:10px;
+			padding-right:10px;
+			padding-bottom:10px;
+		}
+		
+		.basket td {
+			padding-left:10px;
+			padding-right:10px;
+			text-align:center;
+			font-size:14px;
+			color:#5b2a3c;
+			background:#fff;
+			border-bottom:solid 5px #ffe7f1;
+			vertical-align:middle;
+		}
+		.basket tr.total td {
+			background:none;
+			text-align:right;
+			text-align:right;
+			padding:5px 40px 5px 0 ;
+			line-height:30px;
+			font-size:18px;
+			
+		}
+			.basket tr.total a img {
+				display:block;
+				float:right;
+				padding-left:25px;
+			}
+			.basket tr.total small {
+				font-size:12px;
+				padding-right:10px;
+			}
+		#checkout_pandp, #checkout_total {
+		display:inline;
+		}
+		.basket th.alignleft,
+		.basket td.alignleft {
+			text-align:left;
+		}
+			.basket td.alignleft a {
+				line-height:140%;
+				display:block;
+				padding-top:5px;
+				padding-bottom:5px;
+			}
+		.basket td span {
+			display:block;
+			float:left;
+			padding-left:28px;
+		}
+		.basket td .plus {
+			display:block;
+			float:right;
+		}
+		.basket td .minus {
+			display:block;
+			float:left;
+		}
+		.basket td .remove {
+			display:block;
+			margin:0 0 0 auto;
+			text-align:right;
+		}
+		.basket #details td{
+		text-align:left;
+		}
+		.basket #details tr{
+		height:35px;
+		}
+		.basket p{
+			padding-bottom:18px;
+		}
+		
+.contact {
+	background:url(../img/bg-contact-top.gif) no-repeat top;
+	padding-top:77px;
+} 
+	.contact .bgt {
+		background:url(../img/bg-bottom.gif) no-repeat bottom;
+		padding-bottom:22px;
+	}
+	.contact .bg {
+		background:url(../img/bg-content.gif) repeat-y;
+	
+		width:842px;
+		padding-left:110px;
+	}
+	.contact h3 {
+		padding-bottom:34px;
+		
+	}
+	.contact p {
+		padding-bottom:14px;
+		line-height:150%;
+		font-size:12px;
+	}
+	.contact .col {
+		float:left;
+		padding-left:35px;
+		width:410px;
+	}
+		.contact .col .address {
+			line-height:160%;
+			font-size:15px;
+			padding-left:12px;
+		}
+		
+		.contact form img.clear {
+			height:5px;
+		}
+		.contact label {
+			width:65px;
+			float:left;
+			display:block;
+			font-size:12px;
+			padding-left:4px;	
+			line-height:34px;
+		}
+		.contact div.input {
+			background:url(../img/bg-input.gif) no-repeat;
+			width:337px;
+			height:27px;
+			float:left;
+			padding-top:7px;
+		}
+			.contact div.input input {
+				border:0;
+				background:none;				
+				font-family:Georgia, "Times New Roman", Times, serif;
+				font-size:14px;
+				padding-left:7px;
+				outline:none;
+				width:324px;
+			}
+		.contact div.textarea {
+			background:url(../img/bg-textarea.gif) no-repeat;
+			width:337px;
+			height:120px;
+			padding-top:7px;
+			padding-bottom:7px;
+			float:left;
+		}
+			.contact div.textarea textarea {
+				padding-left:7px;
+				border:0;
+				background:none;				
+				font-family:Georgia, "Times New Roman", Times, serif;
+				font-size:14px;
+				height:120px;
+				width:324px;
+				outline:none;
+			}
+	.contact form .img {
+		display:block;
+		padding-left:69px;
+		padding-top:5px;
+	}
+		
+	.contact .dots {
+		width:100%;
+		height:1px;
+		display:block;
+		border-bottom:dotted 1px #de62b3;
+		margin-bottom:25px;
+	}
+	
+.news {
+	background:url(../img/bg-news-top.gif) no-repeat top;
+	padding-top:66px;
+}
+	.news .bgt {
+		background:url(../img/bg-news-bottom.gif) no-repeat bottom;
+		padding-bottom:22px;
+	}
+	.news .bg {
+		background:url(../img/bg-news-content.gif) repeat-y;
+		width:952px;
+	}
+	.news #sidebar {
+		padding-left:18px;
+		width:187px;
+		float:left;
+	}	
+		.news #sidebar h5 {
+			padding-left:5px;
+			padding-right:5px;
+			padding-bottom:12px;
+			margin-bottom:12px;
+			border-bottom:dotted 1px #fff;
+			font-size:12.5px;
+		}
+			.news #sidebar h5 a {
+				text-decoration:none;
+				color:#6f324e;
+			}
+			.news #sidebar h5 small {
+				display:block;
+				color:#de62b3;
+				font-size:12.5px;
+			}
+			.news #sidebar h5 a:hover {
+				text-decoration:underline;
+			}
+			
+	.news .pager {
+		font-size:12.5px;
+	}	
+		.news .pager a {
+			background:#de62b3;
+			text-decoration:none;
+			color:#5b2a3c;
+			padding-left:4px;
+			padding-right:4px;
+		}
+		.news .pager a:hover,.news .pager a.active {
+			background:#fff;
+		}
+		.news .pager a.nobg {
+			background:none;	
+		}
+		.news .pager a.nobg:hover {
+			background:#fff;
+		}
+	
+	.news #page {
+		padding-left:44px;
+		float:left;
+		width:670px;
+	}
+		.news #page h3 {
+			color:#de62b3 !important;
+			padding-bottom:22px;
+		}
+		.news #page h4 {
+			color:#5b2a3c;
+			font-size:15px;
+			padding-bottom:35px;
+		}
+		.news #page p {
+			font-size:12px;
+			line-height:150%;	
+			padding-bottom:20px;
+		}
+		.news #page img.right {
+			display:block;
+			padding-left:25px;
+		}
+		
+.products {
+	background:url(../img/bg-products-top.gif) no-repeat top;
+	padding-top:60px;
+}
+	.products .bgt {
+		background:url(../img/bg-products-bottom.gif) no-repeat bottom;
+		padding-bottom:16px;
+	}
+	.products .bg {
+		background: url(../img/bg-products-content.gif) repeat-y;
+		width:952px;
+	}
+	.products #sidebar {
+		float:left;
+		width:207px;
+		padding-left:8px;
+		padding-right:8px;
+		margin-top:-1px;
+	}
+		.products #sidebar .leftmenu {
+			background:url(../img/small-box-bottom.gif) no-repeat bottom #ffc2dd;
+			padding-bottom:10px;
+			margin-bottom:10px;
+		}
+		.products #sidebar .leftmenu ul {
+			padding:0 10px;
+		}
+			.products #sidebar .leftmenu ul li {
+				border-top:dotted 1px #fff;
+				padding-top:5px;
+				padding-bottom:5px;
+			}
+			.products #sidebar .leftmenu ul li.first {
+				border-top:0;
+			}
+				.products #sidebar .leftmenu ul li a {
+					background:url(../img/sidebar-heart.gif) no-repeat left center;
+					color:#6f324e;
+					font-size:12px;
+					text-decoration:none;
+					padding-left:20px;
+				}
+				.products #sidebar .leftmenu ul li a:hover,
+				.products #sidebar .leftmenu ul li a.active {
+					font-weight:bold;
+				}
+		.products #sidebar .box {
+			background:#de62b3;
+			text-align:center;
+		}
+			.products #sidebar .box .dots {
+				border-bottom:dotted 1px #fff;
+				width:190px;
+				height:1px;
+				margin:0 auto;
+				display:block;
+			}
+			.products #sidebar .box select {
+				outline:none;
+				width:190px;
+				margin:4px auto;
+			}
+			
+	.products #page {
+		padding-left:25px;
+		width:668px;
+		float:left;
+	}
+		.products #page h3 {
+			color:#de62b3;
+			padding-top:8px;
+			padding-bottom:14px;
+		}
+		.products #page .pager {
+			float:right;
+			font-size:12.5px;
+			display:block;
+		}	
+		.products #page .pager a {
+			background:#df62b4;
+			text-decoration:none;
+			color:#fff;
+			padding-left:4px;
+			padding-right:4px;
+		}
+		.products #page .pager a:hover,.products #page .pager a.active {
+			background:#fff;
+			color:#df62b4;
+		}
+		.products #page .pager a.nobg {
+			background:#5b2a3c;	
+			color:#fff;
+		}
+		.products #page .pager a.nobg:hover {
+			background:#fff;
+			color:#5b2a3c;
+		}
+		
+		.products #page p {
+			line-height:140%;
+			padding-bottom:24px;
+			font-size:15px;
+		}
+		.products #page .list {
+			width:678px;
+			margin-left:-10px;
+		}
+		.products #page .product {
+			padding-bottom:25px;
+			float:left;
+			padding-left:10px;
+		}
+			.products #page .product p{
+				width:158px;
+			}
+			.products #page .product a {
+				font-size:14px;
+				font-weight:bold;
+				color:#de62b3;
+				text-decoration:none;
+				padding-bottom:3px;
+				display:block;
+			}
+			.products #page .product a:hover {
+				text-decoration:underline;
+			}
+			.products #page .product a img {
+				display:block;
+				padding-bottom:8px;
+			}
+			.products #page .product strong {
+				font-size:14px;
+				color:#6f324e;
+			}
+			
+			.products #page .detail {
+				float:left;
+				width:315px;
+			}
+				.products #page .detail p {
+					padding-bottom:24px;
+				}
+					.products #page .detail p small {
+						font-size:12px;
+					}
+				.products #page .detail .price {
+					padding-top:18px;
+					padding-bottom:18px;
+					font-size:24px;
+					font-weight:bold;
+					color:#6f324e;
+				}
+			.products #page .image {
+				display:block;
+				float:right;
+			}
+				.products #page .image img {
+					display:block;
+				}
+</style></head>
+
+<body>
+ <div id="content" class="home">
+  	<div class="bgt">
+    	<div class="bg">
+        <div class="colA">
+          <h2 class="hide">Buy online</h2>
+          <h3>Shop</h3>
+							          <a href="/shop/category/3/necklaces.html"><img src="/asset-store/image/flyingpigsandpearlsnecklace-8.jpg" alt="" width="87" /><span>Necklaces</span></a>
+							          <a href="/shop/category/6/earrings.html"><img src="/asset-store/image/skullandkeyears-51.jpg" alt="" width="87" /><span>Earrings</span></a>
+							          <a href="/shop/category/4/bracelets.html"><img src="/asset-store/image/carvedluciterose-95.jpg" alt="" width="87" /><span>Bracelets</span></a>
+					<div class="clear"></div>		          <a href="/shop/category/8/bag-charms.html"><img src="/asset-store/image/heartkeycharm-3.jpg" alt="" width="87" /><span>Bag Charms</span></a>
+							          <a href="/shop/category/15/home-gifts.html"><img src="/asset-store/image/candle2small-74.jpg" alt="" width="87" /><span>Home & Gifts</span></a>
+							          <a href="/shop/category/16/clothing.html"><img src="/asset-store/image/stripeydressfrontsmall-18.jpg" alt="" width="87" /><span>Clothing</span></a>
+							          <a href="/shop/category/2/hair-accessories.html"><img src="/asset-store/image/cherryhairclipsmall-75.jpg" alt="" width="87" /><span>Hair Accessories</span></a>
+							          <a href="/shop/category/10/shoes-handbags.html"><img src="/asset-store/image/whitebagsmall-15.jpg" alt="" width="87" /><span>Shoes & Handbags</span></a>
+							          <a href="/shop/category/7/rings-and-brooches.html"><img src="/asset-store/image/catcameo-47.jpg" alt="" width="87" /><span>Rings and Brooches</span></a>
+					          <img src="img/s.gif" alt="" class="clear" />      
+        </div>
+        <div class="colB">
+          
+          <h3>Welcome!</h3>
+          <p>Based in Leeds in the United Kingdom, Candy Candy is an individual fun and unique brand of costume jewellery and hair accessories.</p>
+<p>Candy Candy is highly influenced by Japanese quirky style and vintage fashion combined with bright colours and sparkling materials.</p>
+<p>Please have a look around the site where you can find all the <a href="http://candycandy.rajgorsiadev.co.uk/latest-news"><span style="color: rgb(255, 255, 255);">latest news</span></a>, our <a href="http://www.candycandyjewellery.co.uk/shop"><span style="color: rgb(255, 255, 255);">online shop</span></a>, <a href="http://www.candycandyjewellery.co.uk/about-candycandy"><span style="color: rgb(255, 255, 255);">more information about Candy Candy</span></a> and <a href="http://www.candycandyjewellery.co.uk/contact-us"><span style="color: rgb(255, 255, 255);">how to contact us</span></a>.&nbsp;</p>
+<p><iframe frameborder="0" scrolling="no" allowtransparency="true" style="border: medium none ; overflow: hidden; width: 450px; height: 21px;" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.candycandyjewellery.co.uk%2F&amp;layout=button_count&amp;show_faces=false&amp;width=450&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21"></iframe></p>
+<a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/candycandyuk">Follow @candycandyuk</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>        </div>
+        <div class="colC">
+          
+          <h3>News</h3>
+											<div>
+	            <h4><a href="/latest-news/33/follow-candy-candy-on-twitter.html">Follow Candy Candy on Twitter</a></h4>
+	            <p>
+							<p>Good news! &nbsp;Candy Candy is now on Twitter (<a target="_blank" href="https://twitter.com/#!/candycandyuk">@candycandyuk</a>) so you can follow us for all the latest tweets about our items, and general thoughts on all things fashion.</p></p>
+	          </div>
+	          <img src="img/s.gif" alt="" class="dots" />
+											<div>
+	            <h4><a href="/latest-news/32/new-lucite-handbags-exclusive-to-candy-candy.html">New Lucite Handbags Exclusive to Candy Candy</a></h4>
+	            <p>
+							<p>Candy Candy is tremendously excited to announce the addition of these wonderful four styles of lucite hanbag - <a target="_self" href="http://www.candycandyjewellery.co.uk/product/details/127/clear-carved-lucite-handbag.html">Clear</a>,&nbsp;<a target="_self" href="http://www.candycandyjewellery.co.uk/product/details/128/old-gold-lucite-handbag.html">Old Gold</a>,&nbsp;<a target="_self" href="http://www.candycandyjewellery.co.uk/product/details/130/sea-green-lucite-handbag.html">Sea Green</a> and <a target="_self" href="http://www.candycandyjewellery.co.uk/product/details/129/pearl-white-lucite-handbag.html">Pearl White</a>.</p></p>
+	          </div>
+	          <img src="img/s.gif" alt="" class="dots" />
+											<div>
+	            <h4><a href="/latest-news/31/we-are-stocking-candy-candy-customised-shoes.html">We are stocking Candy Candy customised shoes!</a></h4>
+	            <p>
+							<p>Have a look at our amazing new shoes that have been given the Candy Candy touch!</p></p>
+	          </div>
+	          <img src="img/s.gif" alt="" class="dots" />
+					        </div>
+        <img src="img/s.gif" alt="" class="clear" />
+      </div>
+    </div>
+  </div>
+</body>
+</html>

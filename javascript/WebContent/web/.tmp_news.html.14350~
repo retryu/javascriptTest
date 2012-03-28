@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Untitled Document</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+        <script  src="js/index.js"></script>
+        </script>
+      
+    </head>
+        <div id="layouthead">
+            <img src="img/logo.png" />
+    <body>
+        </div>
+        <div id="navigation">
+            <ul class="main">
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+                
+                <li>
+                    <a href="photo.html">图片</a>
+                </li>
+                <li>
+                    <a href="question.html">问答</a>
+                </li>
+                <li>
+                    <a href="news.html">新闻</a>
+                </li>
+				 <li>
+                    <a href="team.html">团队</a>
+                </li>
+            </ul>
+        </div>
+        <div id="content">
+            <div class="topContent">
+              
+            </div>
+        </div>
+    <div id="footer">
+    	<div class="footest"><tt>杭州师范大学 国际服务工程学院 </tt></div>
+		<div class="footimg"></div>
+    </div>
+	</body>
+</html>

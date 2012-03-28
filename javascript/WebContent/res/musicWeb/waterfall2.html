@@ -1,0 +1,37 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>waterfall demo</title>
+<script type="text/javascript" src="http://docs.kissyui.com/kissy/build/kissy.js"></script>
+<style>
+.ks-waterfall{position: absolute;width: 200px;overflow: hidden;padding:6px;border:1px solid #ddd;margin-bottom: 20px;}
+</style>
+</head>
+<body>
+<div id="container" style="position: relative;">
+    <div class="ks-waterfall"><img src="images/1.jpg" width="200" height="300"></div>
+    <div class="ks-waterfall"><img src="images/2.jpg" width="200" height="475"></div>
+    <div class="ks-waterfall"><img src="images/3.jpg" width="200" height="240"></div>
+    <div class="ks-waterfall"><img src="images/4.jpg" width="200" height="272"></div>
+    <div class="ks-waterfall"><img src="images/5.jpg" width="200" height="198"></div>
+    <div class="ks-waterfall"><img src="images/6.jpg" width="200" height="260"> </div>
+    <div class="ks-waterfall"><img src="images/7.jpg" width="200" height="251"></div>
+    <div class="ks-waterfall"><img src="images/8.jpg" width="200" height="423"></div>
+    <div class="ks-waterfall"><img src="images/9.jpg" width="200" height="290"></div>
+    <div class="ks-waterfall"><img src="images/10.jpg" width="200" height="311"></div>
+    <div class="ks-waterfall"><img src="images/11.jpg" width="200" height="280"></div>
+</div>
+
+<script>
+KISSY.use("waterfall", function (S, Waterfall) {
+    new Waterfall({
+        container: "#container",    //节点容器
+        minColCount: 2,             //最小列数
+        colWidth: 240               //每列的宽度
+    });
+});
+</script>
+</body>
+</html>

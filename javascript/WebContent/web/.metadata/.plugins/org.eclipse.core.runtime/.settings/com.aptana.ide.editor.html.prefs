@@ -1,0 +1,5 @@
+com.aptana.ide.editor.html.AUTO_SAVE_BEFORE_PREVIEWING=true
+com.aptana.ide.editor.html.AUTO_SAVE_PROMPTED=true
+com.aptana.ide.editor.html.HTMLEDITOR_INITIAL_CONTENTS=<\!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http\://www.w3.org/TR/html4/strict.dtd">\r\n<html>\r\n\t<head>\r\n\t\t<meta http-equiv\="Content-Type" content\="text/html; charset\=iso-8859-1">\r\n\t\t<title>Untitled Document</title>\r\n\t</head>\r\n\t<body>\r\n\t</body>\r\n</html>\r\n
+com.aptana.ide.editors.FOLDING_HTML_NODE_LIST=body,div,head,html,script,style,
+eclipse.preferences.version=1
